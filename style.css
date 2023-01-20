@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+#clock{
+    width: 1700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.number{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 250px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 250px;
+}
+
+.area{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+
+#hours, #minutes, #seconds{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dot{
+    background-color: white;
+}
